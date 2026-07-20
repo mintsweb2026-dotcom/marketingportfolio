@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900">
+  <rect width="600" height="900" fill="#2A2A2A"/>
+  <line x1="0" y1="0" x2="600" y2="900" stroke="#E8342A" stroke-width="1" opacity="0.15"/>
+  <line x1="600" y1="0" x2="0" y2="900" stroke="#E8342A" stroke-width="1" opacity="0.15"/>
+  <text x="300" y="440" font-family="monospace" font-size="42.00000000000001" fill="#E8342A" text-anchor="middle" dominant-baseline="middle" font-weight="bold" letter-spacing="0.15em">SOCIAL 5</text>
+  <text x="300" y="510" font-family="monospace" font-size="21.000000000000004" fill="#E8342A" text-anchor="middle" dominant-baseline="middle" opacity="0.5" letter-spacing="0.1em">MINTS GLOBAL</text>
+</svg>

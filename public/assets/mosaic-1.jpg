@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#0A0A0A"/>
+  <line x1="0" y1="0" x2="800" y2="800" stroke="#E8342A" stroke-width="1" opacity="0.15"/>
+  <line x1="800" y1="0" x2="0" y2="800" stroke="#E8342A" stroke-width="1" opacity="0.15"/>
+  <text x="400" y="390" font-family="monospace" font-size="56.00000000000001" fill="#E8342A" text-anchor="middle" dominant-baseline="middle" font-weight="bold" letter-spacing="0.15em">MOSAIC 1</text>
+  <text x="400" y="480" font-family="monospace" font-size="28.000000000000004" fill="#E8342A" text-anchor="middle" dominant-baseline="middle" opacity="0.5" letter-spacing="0.1em">MINTS GLOBAL</text>
+</svg>

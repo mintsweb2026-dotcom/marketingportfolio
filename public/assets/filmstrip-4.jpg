@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#5A5A5A"/>
+  <line x1="0" y1="0" x2="200" y2="200" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+  <line x1="200" y1="0" x2="0" y2="200" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+  <text x="100" y="90" font-family="monospace" font-size="14.000000000000002" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="bold" letter-spacing="0.15em">FILM 4</text>
+  <text x="100" y="120" font-family="monospace" font-size="7.000000000000001" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" opacity="0.5" letter-spacing="0.1em">MINTS GLOBAL</text>
+</svg>

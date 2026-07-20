@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#1A1A1A"/>
+  <line x1="0" y1="0" x2="800" y2="1000" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+  <line x1="800" y1="0" x2="0" y2="1000" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+  <text x="400" y="490" font-family="monospace" font-size="56.00000000000001" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="bold" letter-spacing="0.15em">EDITORIAL HERO</text>
+  <text x="400" y="580" font-family="monospace" font-size="28.000000000000004" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" opacity="0.5" letter-spacing="0.1em">MINTS GLOBAL</text>
+</svg>
