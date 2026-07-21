@@ -48,18 +48,13 @@ export default function VideoFeature() {
   return (
     <section ref={sectionRef} className="bg-ink py-16 md:py-24 px-6 md:px-12 w-full overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col gap-16">
-        {/* Header */}
-        <div className="flex flex-col md:flex-row justify-between items-start vf-reveal">
-          <h2 className="font-display text-4xl md:text-6xl tracking-tighter text-paper uppercase leading-none">
-            BEFORE THE<br />CUT
-          </h2>
-        </div>
-
-        {/* Feature Image */}
+        {/* Feature Image with baked-in text "BEFORE THE CUT" and video player UI */}
         <div className="vf-reveal relative w-full aspect-video overflow-hidden vf-video-wrap">
           <img
-            src="/PORTFOLIO IMAGES/page 11/vlcsnap-2026-07-11-14h41m48s797.webp"
-            alt="Before The Cut"
+            loading="lazy"
+            decoding="async"
+            src="/PORTFOLIO IMAGES/10th-page.webp"
+            alt="Before The Cut Video UI"
             className="w-full h-full object-cover"
           />
         </div>

@@ -46,7 +46,7 @@ export default function EditorialSpread() {
         {/* Top block — headline left + large image right */}
         <div className="ed-reveal flex flex-col md:flex-row items-start gap-8">
           <div className="md:w-1/2 flex flex-col justify-between h-full gap-6 pt-2">
-            <h2 className="font-display text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tighter uppercase text-ink">
+            <h2 className="font-display text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight uppercase text-ink">
               EVERY<br />FRAME,<br />INTENTIONAL.
             </h2>
             {/* Staggered text on the right — "SHOT TO HIT DIFFERENT" */}

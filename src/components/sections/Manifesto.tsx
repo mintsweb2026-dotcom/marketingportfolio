@@ -92,7 +92,7 @@ export default function Manifesto() {
           {words.map((w, i) => (
             <div key={i} className="overflow-hidden">
               <span
-                className="mf-word inline-block font-display text-paper text-[clamp(2.8rem,7vw,7.5rem)] leading-[0.88] tracking-tighter"
+                className="mf-word inline-block font-display text-paper text-[clamp(2.8rem,7vw,7.5rem)] leading-[0.88] tracking-tight"
               >
                 {w}
               </span>
@@ -105,7 +105,7 @@ export default function Manifesto() {
           {accentWords.map((w, i) => (
             <div key={i} className="overflow-hidden">
               <span
-                className="mf-word inline-block font-display text-signal-red text-[clamp(2.8rem,7vw,7.5rem)] leading-[0.88] tracking-tighter"
+                className="mf-word inline-block font-display text-signal-red text-[clamp(2.8rem,7vw,7.5rem)] leading-[0.88] tracking-tight"
               >
                 {w}
               </span>
@@ -127,7 +127,7 @@ export default function Manifesto() {
             },
             {
               body: 'BECAUSE AT MINTS, CREATIVITY ISN\'T WHAT WE DO.',
-              accent: 'IT\'S WHO WE ARE.',
+              accent: 'It\'s who we are.',
             },
           ].map(({ body, accent }, i) => (
             <div key={i} className="mf-desc flex flex-col gap-4">
@@ -135,7 +135,7 @@ export default function Manifesto() {
                 {body}
               </p>
               {accent && (
-                <p className="font-mono text-sm md:text-base text-signal-red leading-relaxed uppercase">
+                <p className="font-accent text-4xl md:text-5xl text-signal-red leading-relaxed mt-2">
                   {accent}
                 </p>
               )}

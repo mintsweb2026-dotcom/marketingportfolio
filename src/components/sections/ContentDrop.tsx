@@ -42,7 +42,7 @@ export default function ContentDrop() {
           <p className="text-mute italic">Here every frame tells a story, each shot is a masterpiece</p>
         </div>
         
-        <h2 className="font-display text-5xl md:text-8xl tracking-tighter text-center z-10 drop-reveal">
+        <h2 className="font-display text-5xl md:text-8xl tracking-tight text-center z-10 drop-reveal">
           CONTENT<br/>DROP
         </h2>
         
@@ -54,7 +54,7 @@ export default function ContentDrop() {
 
       {/* Bottom area wordmark */}
       <div className="relative mt-24 md:mt-48 w-full drop-reveal">
-        <h1 className="font-display text-[15vw] leading-none tracking-tighter text-transparent bg-clip-text text-stroke-ink -ml-[2vw] select-none" style={{ WebkitTextStroke: '2px var(--ink)' }}>
+        <h1 className="font-display text-[15vw] leading-none tracking-tight text-transparent bg-clip-text text-stroke-ink -ml-[2vw] select-none" style={{ WebkitTextStroke: '2px var(--ink)' }}>
           MINTS
         </h1>
       </div>

@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         {/* Main Heading */}
-        <h2 className="ft-item font-display text-5xl md:text-7xl lg:text-[7rem] text-center leading-[0.9] tracking-tighter mb-16">
+        <h2 className="ft-item font-display text-5xl md:text-7xl lg:text-[7rem] text-center leading-[0.9] tracking-tight mb-16">
           LET'S WORK<br />TOGETHER.
         </h2>
 

@@ -55,7 +55,7 @@ export default function SocialGrid() {
             <p className="font-mono text-xs tracking-widest uppercase text-ink/50 mb-4">
               A brand isn't built in a feed. It's built in moments like this.
             </p>
-            <h2 className="font-display text-5xl md:text-6xl lg:text-7xl tracking-tighter uppercase text-ink leading-none">
+            <h2 className="font-display text-5xl md:text-6xl lg:text-7xl tracking-tight uppercase text-ink leading-none">
               FRAMED IDEAS
             </h2>
           </div>

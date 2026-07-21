@@ -33,7 +33,7 @@ export default function InfluencerSection() {
     <section ref={sectionRef} className="bg-paper py-16 md:py-24 px-6 md:px-12 w-full max-w-7xl mx-auto flex flex-col gap-16">
       {/* Top row */}
       <div className="flex flex-col md:flex-row justify-between items-start inf-reveal">
-        <h2 className="font-display text-4xl md:text-6xl lg:text-7xl tracking-tighter uppercase leading-none">
+        <h2 className="font-display text-4xl md:text-6xl lg:text-7xl tracking-tight uppercase leading-none">
           THE ALGORITHM'S<br />FAVORITE.
         </h2>
         <span className="font-mono text-sm tracking-widest font-bold mt-4 md:mt-0">

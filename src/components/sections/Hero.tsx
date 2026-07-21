@@ -75,7 +75,7 @@ export default function Hero() {
           ].map(({ text, red }) => (
             <div key={text} className="overflow-hidden">
               <h1
-                className={`hero-word inline-block font-display leading-[0.85] tracking-tighter text-[clamp(3rem,9vw,9rem)] ${red ? 'text-signal-red' : 'text-white'}`}
+                className={`hero-word inline-block font-display leading-[0.85] tracking-tight text-[clamp(3rem,9vw,9rem)] ${red ? 'text-signal-red' : 'text-white'}`}
               >
                 {text}
               </h1>

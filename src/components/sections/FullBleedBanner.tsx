@@ -60,7 +60,7 @@ export default function FullBleedBanner() {
             <div className="absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2 w-3 h-3 rounded-full border border-white/40 bg-transparent" />
           </div>
           
-          <h2 className="font-display text-4xl md:text-7xl text-white tracking-tighter leading-none relative z-10">
+          <h2 className="font-display text-4xl md:text-7xl text-white tracking-tight leading-none relative z-10">
             EARN EVERY REP.
           </h2>
         </div>

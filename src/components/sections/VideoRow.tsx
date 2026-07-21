@@ -40,7 +40,7 @@ export default function VideoRow() {
     <section ref={sectionRef} className="bg-paper py-16 md:py-24 px-6 md:px-12 w-full max-w-7xl mx-auto flex flex-col gap-12">
       {/* Header */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-4">
-        <h2 className="font-display text-4xl md:text-6xl tracking-tighter uppercase leading-none">
+        <h2 className="font-display text-4xl md:text-6xl tracking-tight uppercase leading-none">
           FRAME GRABS
         </h2>
         <p className="font-mono text-sm tracking-widest font-bold uppercase mt-4 md:mt-0 text-mute">

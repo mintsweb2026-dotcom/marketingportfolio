@@ -33,7 +33,7 @@ export default function LogoGrid() {
     <section ref={sectionRef} className="bg-paper py-16 md:py-24 px-6 md:px-12 w-full overflow-hidden flex flex-col gap-16">
       {/* Header */}
       <div className="max-w-7xl mx-auto w-full flex flex-col lg-reveal">
-        <h2 className="font-display text-4xl md:text-6xl tracking-tighter uppercase leading-none">
+        <h2 className="font-display text-4xl md:text-6xl tracking-tight uppercase leading-none">
           LOGOS THAT HIT DIFFERENT.
         </h2>
         <p className="font-mono text-sm md:text-base tracking-wide text-ink max-w-3xl mt-6 leading-relaxed">

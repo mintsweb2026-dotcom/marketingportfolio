@@ -24,6 +24,7 @@ import MockupGrid from './components/sections/MockupGrid';
 import InfluencerSection from './components/sections/InfluencerSection';
 import PhoneMockups from './components/sections/PhoneMockups';
 import AnalyticsShowcase from './components/sections/AnalyticsShowcase';
+import FinalCTA from './components/sections/FinalCTA';
 
 function App() {
   useEffect(() => {
@@ -56,24 +57,43 @@ function App() {
       <CornerFrame />
       
       <main>
+        {/* Page 1: Cover */}
         <Hero />
+        {/* Page 2: Text */}
         <Manifesto />
+        {/* Page 3: Service Pillars */}
         <Pillars />
+        {/* Page 4: THE LINEUP / CONTENT DROP */}
         <ContentDrop />
-        <StillsThatSell />
+        {/* Page 5: EVERY FRAME, INTENTIONAL */}
         <EditorialSpread />
+        {/* Page 6: CLEAN CUTS */}
         <ProductGrid />
+        {/* Page 7: BEYOND THE PRODUCT */}
         <Mosaic />
+        {/* Page 8: EARN EVERY REP */}
         <FullBleedBanner />
+        {/* Page 9: FRAMED IDEAS */}
         <SocialGrid />
+        {/* Page 10: STILLS THAT SELL */}
+        <StillsThatSell />
+        {/* Page 11: BEFORE THE CUT */}
         <VideoFeature />
+        {/* Page 12: More Video / FRAME GRABS */}
         <VideoRow />
         <VideoMasonry />
+        {/* Page 13: LOGOS THAT HIT */}
         <LogoGrid />
+        {/* Page 14: TOUCHABLE / MOCKUPS */}
         <MockupGrid />
+        {/* Page 15: INFLUENCER */}
         <InfluencerSection />
+        {/* Page 16: PHONE MOCKUPS */}
         <PhoneMockups />
+        {/* Page 17: ANALYTICS */}
         <AnalyticsShowcase />
+        {/* Page 18: FINAL CTA */}
+        <FinalCTA />
       </main>
 
       <Footer />

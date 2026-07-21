@@ -33,7 +33,7 @@ export default function AnalyticsShowcase() {
     <section ref={sectionRef} className="bg-ink py-16 md:py-24 px-6 md:px-12 w-full mx-auto flex flex-col items-center overflow-hidden gap-12">
       {/* Header */}
       <div className="w-full max-w-4xl mx-auto as-item mb-8 text-center">
-        <h2 className="font-display text-4xl md:text-6xl tracking-tighter text-paper uppercase leading-none mb-6">
+        <h2 className="font-display text-4xl md:text-6xl tracking-tight text-paper uppercase leading-none mb-6">
           SYSTEMS THAT WORK.
         </h2>
         <p className="font-mono text-sm md:text-base tracking-wide text-paper/80 leading-relaxed max-w-3xl mx-auto">

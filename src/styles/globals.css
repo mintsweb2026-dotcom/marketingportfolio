@@ -8,9 +8,26 @@
   --color-stone: var(--stone);
   --color-mute: var(--mute);
 
-  --font-display: "Archivo Black", sans-serif;
-  --font-body: "Inter", sans-serif;
+  --font-display: "Neue Montreal";
+  --font-body: "Neue Montreal";
   --font-mono: "JetBrains Mono", monospace;
+  --font-accent: "Lorraine Script W90 Regular";
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('/fonts/NeueMontreal-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lorraine Script W90 Regular';
+  src: url('/fonts/LorraineScriptW90-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @layer base {

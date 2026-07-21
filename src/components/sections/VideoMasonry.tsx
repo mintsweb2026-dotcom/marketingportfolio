@@ -40,7 +40,7 @@ export default function VideoMasonry() {
     <section ref={sectionRef} className="bg-stone py-16 md:py-24 px-6 md:px-12 w-full max-w-7xl mx-auto flex flex-col gap-16">
       {/* Header */}
       <div className="flex flex-col gap-6 max-w-4xl">
-        <h2 className="font-display text-4xl md:text-6xl tracking-tighter uppercase leading-none text-ink">
+        <h2 className="font-display text-4xl md:text-6xl tracking-tight uppercase leading-none text-ink">
           HOOKED IN<br />SECONDS.
         </h2>
         <p className="font-mono text-sm md:text-base tracking-wide text-ink leading-relaxed max-w-2xl">

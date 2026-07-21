@@ -58,7 +58,7 @@ export default function Mosaic() {
 
       {/* Bottom text */}
       <div className="flex flex-col md:flex-row justify-between items-end gap-8 mosaic-item">
-        <h2 className="font-display text-4xl md:text-6xl tracking-tighter leading-none w-full md:w-1/2">
+        <h2 className="font-display text-4xl md:text-6xl tracking-tight leading-none w-full md:w-1/2">
           BEYOND THE<br />PRODUCT
         </h2>
         <p className="font-mono text-sm tracking-widest font-bold uppercase w-full md:w-auto md:text-right">

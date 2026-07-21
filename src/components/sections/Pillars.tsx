@@ -38,7 +38,7 @@ export default function Pillars() {
           alt="Pillars banner"
           className="absolute inset-0 w-full h-full object-cover object-[center_20%]"
         />
-        <h2 className="relative z-10 text-white font-display text-5xl md:text-7xl lg:text-8xl text-center leading-[0.9] tracking-tighter font-black">
+        <h2 className="relative z-10 text-white font-display text-5xl md:text-7xl lg:text-8xl text-center leading-[0.9] tracking-tight font-black">
           THREE PILLARS<br />ONE STANDARD
         </h2>
       </div>

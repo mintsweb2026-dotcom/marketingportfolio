@@ -33,7 +33,7 @@ export default function StillsThatSell() {
     <section ref={sectionRef} className="bg-paper py-16 md:py-24 px-6 md:px-12 w-full mx-auto flex flex-col items-center overflow-hidden">
       {/* Header */}
       <div className="w-full max-w-4xl mx-auto stills-reveal mb-12 text-center">
-        <h2 className="font-display text-4xl md:text-6xl lg:text-7xl tracking-tighter text-ink uppercase leading-none mb-6">
+        <h2 className="font-display text-4xl md:text-6xl lg:text-7xl tracking-tight text-ink uppercase leading-none mb-6">
           STILLS THAT SELL.
         </h2>
         <p className="font-mono text-sm md:text-base tracking-wide text-ink/80 leading-relaxed max-w-3xl mx-auto">
