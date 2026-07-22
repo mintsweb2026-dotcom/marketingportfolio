@@ -42,28 +42,7 @@ export default function FullBleedBanner() {
 
         {/* Background Outline Text removed based on user feedback about duplication */}
 
-        {/* Boxed Headline */}
-        <div className="relative z-10 border border-white/40 px-8 py-6 md:px-12 md:py-8">
-          {/* Corner Markers (Figma style) */}
-          <div className="absolute -top-1 -left-1 w-2 h-2 bg-white" />
-          <div className="absolute -top-1 -right-1 w-2 h-2 bg-white" />
-          <div className="absolute -bottom-1 -left-1 w-2 h-2 bg-white" />
-          <div className="absolute -bottom-1 -right-1 w-2 h-2 bg-white" />
-          
-          {/* Decorative left line + circle */}
-          <div className="absolute -top-[1px] right-full w-12 md:w-24 h-[1px] bg-white/40">
-            <div className="absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 w-3 h-3 rounded-full border border-white/40 bg-transparent" />
-          </div>
 
-          {/* Decorative right line + circle */}
-          <div className="absolute -bottom-[1px] left-full w-12 md:w-24 h-[1px] bg-white/40">
-            <div className="absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2 w-3 h-3 rounded-full border border-white/40 bg-transparent" />
-          </div>
-          
-          <h2 className="font-display text-4xl md:text-7xl text-white tracking-tight leading-none relative z-10">
-            EARN EVERY REP.
-          </h2>
-        </div>
       </div>
 
       {/* Typography Below */}

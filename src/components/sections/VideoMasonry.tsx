@@ -55,10 +55,13 @@ export default function VideoMasonry() {
             key={i}
             className={`vm-tile ${span} group relative overflow-hidden cursor-pointer`}
           >
-            <img
+            <img 
               src={src}
               alt={`Hooked ${i}`}
+              data-cursor="PLAY"
               className={`w-full ${aspect} object-cover transition-transform duration-700 group-hover:scale-105`}
+              loading="lazy" 
+              decoding="async" 
             />
           </div>
         ))}

@@ -50,8 +50,7 @@ export default function VideoFeature() {
       <div className="max-w-7xl mx-auto flex flex-col gap-16">
         {/* Feature Image with baked-in text "BEFORE THE CUT" and video player UI */}
         <div className="vf-reveal relative w-full aspect-video overflow-hidden vf-video-wrap">
-          <img
-            loading="lazy"
+          <img loading="lazy"
             decoding="async"
             src="/PORTFOLIO IMAGES/10th-page.webp"
             alt="Before The Cut Video UI"

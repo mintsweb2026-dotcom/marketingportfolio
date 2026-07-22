@@ -49,11 +49,10 @@ export default function InfluencerSection() {
         <div className="absolute bottom-0 left-0 w-4 h-4 border-b border-l border-ink/40" />
         <div className="absolute bottom-0 right-0 w-4 h-4 border-b border-r border-ink/40" />
         
-        <img
-          src="/PORTFOLIO IMAGES/page-15.webp"
+        <img src="/PORTFOLIO IMAGES/page-15.webp"
           alt="The Algorithm's Favorite"
           className="w-full h-auto max-h-[60vh] object-cover"
-        />
+        loading="lazy" decoding="async" />
       </div>
 
       {/* Bottom Text */}

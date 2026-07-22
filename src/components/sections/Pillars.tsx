@@ -33,11 +33,10 @@ export default function Pillars() {
     <section className="bg-paper pb-24">
       {/* Banner */}
       <div className="relative w-full aspect-[16/9] md:aspect-[2.5/1] flex items-center justify-center overflow-hidden">
-        <img
-          src="/PORTFOLIO IMAGES/3rd-Page.webp"
+        <img src="/PORTFOLIO IMAGES/3rd-Page.webp"
           alt="Pillars banner"
           className="absolute inset-0 w-full h-full object-cover object-[center_20%]"
-        />
+        loading="lazy" decoding="async" />
         <h2 className="relative z-10 text-white font-display text-5xl md:text-7xl lg:text-8xl text-center leading-[0.9] tracking-tight font-black">
           THREE PILLARS<br />ONE STANDARD
         </h2>

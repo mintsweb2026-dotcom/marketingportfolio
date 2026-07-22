@@ -1,5 +1,30 @@
 @import "tailwindcss";
 
+/* ─── Typography Fonts ────────────────────────────────────────────── */
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('/fonts/NeueMontreal-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('/fonts/NeueMontreal-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lorraine Script Regular';
+  src: url('/fonts/LorraineScript-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* ─── Design Tokens ─────────────────────────────────────────────── */
 :root {
   --ink:          #F3EFE0; /* Warm beige for text and inverted sections */

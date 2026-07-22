@@ -58,8 +58,7 @@ export default function EditorialSpread() {
             </div>
           </div>
           <div className="md:w-1/2 overflow-hidden group cursor-pointer" style={{ height: '360px' }}>
-            <img
-              loading="lazy"
+            <img loading="lazy"
               decoding="async"
               src="/PORTFOLIO IMAGES/page 5/Sweet, floral, and dreamy!SugarBliss is here to make every moment feel like a sugar-coated fairy.webp"
               alt="Velora Creative Editorial"
@@ -76,8 +75,7 @@ export default function EditorialSpread() {
               className="flex-1 overflow-hidden group cursor-pointer"
               style={{ height: '220px' }}
             >
-              <img
-                loading="lazy"
+              <img loading="lazy"
                 decoding="async"
                 src={img.src}
                 alt={img.alt}

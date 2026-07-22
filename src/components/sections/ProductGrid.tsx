@@ -64,8 +64,7 @@ export default function ProductGrid() {
               className="flex-1 overflow-hidden group cursor-pointer"
               style={{ height: '300px' }}
             >
-              <img
-                loading="lazy"
+              <img loading="lazy"
                 decoding="async"
                 src={img.src}
                 alt={img.alt}
@@ -83,8 +82,7 @@ export default function ProductGrid() {
               className="flex-1 overflow-hidden group cursor-pointer"
               style={{ height: '200px' }}
             >
-              <img
-                loading="lazy"
+              <img loading="lazy"
                 decoding="async"
                 src={img.src}
                 alt={img.alt}

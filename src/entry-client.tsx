@@ -1,11 +1,21 @@
 import { StrictMode } from 'react';
-import { hydrateRoot } from 'react-dom/client';
+import { hydrateRoot, createRoot } from 'react-dom/client';
 import './styles/globals.css';
 import App from './App.tsx';
 
-hydrateRoot(
-  document.getElementById('root')!,
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+const rootElement = document.getElementById('root')!;
+
+if (import.meta.env.DEV) {
+  createRoot(rootElement).render(
+    <StrictMode>
+      <App />
+    </StrictMode>
+  );
+} else {
+  hydrateRoot(
+    rootElement,
+    <StrictMode>
+      <App />
+    </StrictMode>
+  );
+}

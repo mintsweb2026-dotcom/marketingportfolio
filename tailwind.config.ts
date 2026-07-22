@@ -15,9 +15,10 @@ export default {
         mute: "var(--mute)",
       },
       fontFamily: {
-        display: ["Archivo Black", "sans-serif"],
-        body: ["Inter", "sans-serif"],
-        mono: ["JetBrains Mono", "monospace"],
+        display: ["'Neue Montreal'", "sans-serif"],
+        body: ["'Neue Montreal'", "sans-serif"],
+        mono: ["'Neue Montreal'", "sans-serif"],
+        accent: ["'Lorraine Script Regular'", "cursive"],
       },
     },
   },

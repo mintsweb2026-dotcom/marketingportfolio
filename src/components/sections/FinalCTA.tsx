@@ -31,8 +31,7 @@ export default function FinalCTA() {
   return (
     <section ref={sectionRef} className="bg-paper py-16 md:py-24 px-6 md:px-12 w-full flex flex-col items-center">
       <div className="w-full max-w-4xl mx-auto final-reveal flex justify-center">
-        <img
-          loading="lazy"
+        <img loading="lazy"
           decoding="async"
           src="/PORTFOLIO IMAGES/Last-page.webp"
           alt="Not the end typewriter"

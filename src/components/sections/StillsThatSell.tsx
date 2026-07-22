@@ -43,11 +43,10 @@ export default function StillsThatSell() {
 
       {/* Image representing PDF page 4 */}
       <div className="w-full max-w-7xl mx-auto stills-reveal flex justify-center">
-        <img
-          src="/PORTFOLIO IMAGES/4th-page.webp"
+        <img src="/PORTFOLIO IMAGES/4th-page.webp"
           alt="Stills That Sell"
           className="w-full h-auto max-h-[85vh] object-contain shadow-2xl"
-        />
+        loading="lazy" decoding="async" />
       </div>
     </section>
   );

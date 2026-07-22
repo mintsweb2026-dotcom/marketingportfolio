@@ -16,6 +16,17 @@ export default defineConfig({
       svg: { disabled: true },
     })
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          react: ['react', 'react-dom'],
+          gsap: ['gsap'],
+          lenis: ['lenis'],
+        }
+      }
+    }
+  },
   ssr: {
     noExternal: ['gsap']
   }

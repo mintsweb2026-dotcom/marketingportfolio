@@ -35,7 +35,7 @@ export default function Footer() {
         
         {/* Logo */}
         <div className="ft-item flex items-center justify-center mb-16">
-          <img src="/logo_mints.png" alt="Mints Global" className="h-20 w-auto object-contain" />
+          <img src="/logo_mints.png" alt="Mints Global" className="h-20 w-auto object-contain" loading="lazy" decoding="async" />
         </div>
 
         {/* Main Heading */}

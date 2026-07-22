@@ -55,10 +55,13 @@ export default function VideoRow() {
             key={label}
             className="vr-card group relative overflow-hidden cursor-pointer"
           >
-            <img
+            <img 
               src={src}
               alt={label}
+              data-cursor="PLAY"
               className="w-full aspect-[4/5] object-cover transition-transform duration-700 group-hover:scale-105"
+              loading="lazy" 
+              decoding="async" 
             />
           </div>
         ))}

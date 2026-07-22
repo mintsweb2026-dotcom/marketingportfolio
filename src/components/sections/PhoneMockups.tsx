@@ -40,11 +40,10 @@ export default function PhoneMockups() {
 
       {/* Image containing phones and text */}
       <div className="w-full max-w-6xl mx-auto pm-reveal flex justify-center">
-        <img
-          src="/PORTFOLIO IMAGES/page-16.webp"
+        <img src="/PORTFOLIO IMAGES/page-16.webp"
           alt="Running the feed mockups"
           className="w-full h-auto max-h-[70vh] object-contain"
-        />
+        loading="lazy" decoding="async" />
       </div>
     </section>
   );

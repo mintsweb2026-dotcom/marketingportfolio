@@ -1,15 +1,25 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
 export default function FloatingNav() {
-  const [isVisible, setIsVisible] = useState(false);
+  const navRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    let isVisible = false;
+
     const handleScroll = () => {
-      // Show the nav button only after scrolling down 100vh
-      if (window.scrollY > window.innerHeight) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
+      const shouldBeVisible = window.scrollY > window.innerHeight;
+      
+      if (shouldBeVisible !== isVisible) {
+        isVisible = shouldBeVisible;
+        if (navRef.current) {
+          if (isVisible) {
+            navRef.current.classList.remove('translate-y-12', 'opacity-0', 'pointer-events-none');
+            navRef.current.classList.add('translate-y-0', 'opacity-100');
+          } else {
+            navRef.current.classList.remove('translate-y-0', 'opacity-100');
+            navRef.current.classList.add('translate-y-12', 'opacity-0', 'pointer-events-none');
+          }
+        }
       }
     };
 
@@ -23,9 +33,8 @@ export default function FloatingNav() {
 
   return (
     <div 
-      className={`fixed bottom-6 right-6 z-50 transition-all duration-500 transform ${
-        isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0 pointer-events-none'
-      }`}
+      ref={navRef}
+      className="fixed bottom-6 right-6 z-50 transition-all duration-500 transform translate-y-12 opacity-0 pointer-events-none"
     >
       <button 
         onClick={scrollToTop}
