@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ command, isSsrBuild }) => ({
   plugins: [
     react(), 
     tailwindcss(),
@@ -19,15 +19,16 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
-          react: ['react', 'react-dom'],
-          gsap: ['gsap'],
-          lenis: ['lenis'],
-        }
+        ...(isSsrBuild ? {} : {
+          manualChunks: {
+            gsap: ['gsap'],
+            lenis: ['lenis'],
+          }
+        })
       }
     }
   },
   ssr: {
     noExternal: ['gsap']
   }
-})
+}))

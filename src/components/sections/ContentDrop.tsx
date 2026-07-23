@@ -47,16 +47,16 @@ export default function ContentDrop() {
         </h2>
         
         <div className="md:absolute md:right-0 md:top-1/4 mt-12 md:mt-0 max-w-[300px] drop-reveal">
-          <img loading='lazy' decoding='async' src="/PORTFOLIO IMAGES/4th-page.webp" alt="Content drop" className="w-full aspect-[3/4] object-cover" />
+          <img loading='lazy' decoding='async' src="/PORTFOLIO IMAGES/4th-page.webp" alt="Mints Global content drop showcase demonstrating viral marketing campaigns" className="w-full aspect-[3/4] object-cover" />
           <p className="font-mono text-xs uppercase tracking-widest mt-4 text-right">From brief to viral</p>
         </div>
       </div>
 
       {/* Bottom area wordmark */}
       <div className="relative mt-24 md:mt-48 w-full drop-reveal">
-        <h1 className="font-display text-[15vw] leading-none tracking-tight text-transparent bg-clip-text text-stroke-ink -ml-[2vw] select-none" style={{ WebkitTextStroke: '2px var(--ink)' }}>
+        <h2 className="font-display text-[15vw] leading-none tracking-tight text-transparent bg-clip-text text-stroke-ink -ml-[2vw] select-none" style={{ WebkitTextStroke: '2px var(--ink)' }}>
           MINTS
-        </h1>
+        </h2>
       </div>
     </section>
   );

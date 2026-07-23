@@ -47,7 +47,7 @@ export default function Hero() {
       {/* Background image */}
       <img
         src="/PORTFOLIO IMAGES/Cover.webp"
-        alt="Cover"
+        alt="Mints Global Creative Agency - Premium visual storytelling and digital marketing cover image"
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-black/40" />
@@ -67,18 +67,21 @@ export default function Hero() {
           </span>
         </div>
 
+        {/* Visually hidden H1 for GEO/SEO */}
+        <h1 className="sr-only">MINTS GLOBAL - Premium Creative Agency</h1>
+
         {/* Giant headline */}
-        <div className="flex flex-col gap-0">
+        <div className="flex flex-col gap-0" role="heading" aria-level={2}>
           {[
             { text: 'MINTS', red: false },
             { text: 'PORTFOLIO', red: false },
           ].map(({ text, red }) => (
             <div key={text} className="overflow-hidden">
-              <h1
+              <div
                 className={`hero-word inline-block font-display leading-[0.85] tracking-tight text-[clamp(3rem,9vw,9rem)] ${red ? 'text-signal-red' : 'text-white'}`}
               >
                 {text}
-              </h1>
+              </div>
             </div>
           ))}
         </div>

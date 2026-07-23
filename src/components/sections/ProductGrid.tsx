@@ -61,8 +61,7 @@ export default function ProductGrid() {
           {uprightBottles.map((img) => (
             <div
               key={img.src}
-              className="flex-1 overflow-hidden group cursor-pointer"
-              style={{ height: '300px' }}
+              className="flex-1 overflow-hidden group cursor-pointer h-24 sm:h-32 md:h-[300px]"
             >
               <img loading="lazy"
                 decoding="async"
@@ -79,8 +78,7 @@ export default function ProductGrid() {
           {sidewaysBottles.map((img) => (
             <div
               key={img.src}
-              className="flex-1 overflow-hidden group cursor-pointer"
-              style={{ height: '200px' }}
+              className="flex-1 overflow-hidden group cursor-pointer h-20 sm:h-24 md:h-[200px]"
             >
               <img loading="lazy"
                 decoding="async"

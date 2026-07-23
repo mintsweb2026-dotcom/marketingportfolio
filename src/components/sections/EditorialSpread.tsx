@@ -57,7 +57,7 @@ export default function EditorialSpread() {
               <span className="ml-20">DIFFERENT.</span>
             </div>
           </div>
-          <div className="md:w-1/2 overflow-hidden group cursor-pointer" style={{ height: '360px' }}>
+          <div className="md:w-1/2 overflow-hidden group cursor-pointer h-64 md:h-[360px]">
             <img loading="lazy"
               decoding="async"
               src="/PORTFOLIO IMAGES/page 5/Sweet, floral, and dreamy!SugarBliss is here to make every moment feel like a sugar-coated fairy.webp"
@@ -72,8 +72,7 @@ export default function EditorialSpread() {
           {row5Images.map((img) => (
             <div
               key={img.src}
-              className="flex-1 overflow-hidden group cursor-pointer"
-              style={{ height: '220px' }}
+              className="flex-1 overflow-hidden group cursor-pointer h-20 sm:h-28 md:h-[220px]"
             >
               <img loading="lazy"
                 decoding="async"

@@ -68,14 +68,14 @@ export default function SocialGrid() {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
 
           {/* Tall video stills — first 2 tiles */}
-          <div className="social-tile col-span-1 row-span-2 overflow-hidden group cursor-pointer bg-stone" style={{ height: '420px' }}>
+          <div className="social-tile col-span-1 row-span-2 overflow-hidden group cursor-pointer bg-stone h-64 sm:h-80 md:h-[420px]">
             <img loading="lazy" decoding="async"
               src="/PORTFOLIO IMAGES/page 9/ai-9.1 (1).webp"
               alt="Video Still 1"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
-          <div className="social-tile col-span-1 row-span-2 overflow-hidden group cursor-pointer bg-stone" style={{ height: '420px' }}>
+          <div className="social-tile col-span-1 row-span-2 overflow-hidden group cursor-pointer bg-stone h-64 sm:h-80 md:h-[420px]">
             <img loading="lazy" decoding="async"
               src="/PORTFOLIO IMAGES/page 9/post-32 (1).webp"
               alt="Video Still 2"

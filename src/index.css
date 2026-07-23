@@ -1,29 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Great+Vibes&display=swap');
 @import "tailwindcss";
 
+@theme {
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+  --color-signal-red: var(--signal-red);
+  --color-stone: var(--stone);
+  --color-mute: var(--mute);
+
+  --font-display: "Outfit", sans-serif;
+  --font-body: "Outfit", sans-serif;
+  --font-mono: "Outfit", sans-serif;
+  --font-accent: "Great Vibes", cursive;
+}
+
 /* ─── Typography Fonts ────────────────────────────────────────────── */
-@font-face {
-  font-family: 'Neue Montreal';
-  src: url('/fonts/NeueMontreal-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Neue Montreal';
-  src: url('/fonts/NeueMontreal-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Lorraine Script Regular';
-  src: url('/fonts/LorraineScript-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+/* Custom local fonts removed due to missing font files. Using Google Fonts 'Outfit' and 'Great Vibes' instead. */
 
 /* ─── Design Tokens ─────────────────────────────────────────────── */
 :root {
@@ -43,7 +35,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: 'Neue Montreal';
+  font-family: 'Outfit', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
