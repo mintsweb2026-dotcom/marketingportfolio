@@ -48,13 +48,16 @@ export default function VideoFeature() {
   return (
     <section ref={sectionRef} className="bg-ink py-16 md:py-24 px-6 md:px-12 w-full overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col gap-16">
-        {/* Feature Image with baked-in text "BEFORE THE CUT" and video player UI */}
-        <div className="vf-reveal relative w-full aspect-video overflow-hidden vf-video-wrap">
-          <img loading="lazy"
-            decoding="async"
-            src="/PORTFOLIO IMAGES/10th-page.webp"
-            alt="Before The Cut Video UI"
+        {/* Feature Video */}
+        <div className="vf-reveal relative w-full aspect-video overflow-hidden vf-video-wrap bg-black">
+          <video 
+            src="https://r2.fivemanage.com/gaIXorHPgVE5f1RYDyrat/mmim.HQmp4.mp4"
             className="w-full h-full object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+            controls
           />
         </div>
       </div>

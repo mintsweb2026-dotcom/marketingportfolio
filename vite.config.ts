@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 // https://vite.dev/config/
-export default defineConfig(({ command, isSsrBuild }) => ({
+export default defineConfig(({ isSsrBuild }) => ({
   plugins: [
     react(), 
     tailwindcss(),

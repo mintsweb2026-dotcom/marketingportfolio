@@ -6,19 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 // PDF page 9 — "FRAMED IDEAS"
 // Row of social posts: 2 tall video stills left, then 5 social media graphics right
-// Uses page 9/ social content + page 11 video stills
-const socialTiles = [
-  // Large video stills (left col-2)
-  { src: '/PORTFOLIO IMAGES/page 9/ai-9.1 (1).webp', alt: 'Fitness Video Still', span: 'col-span-1 sm:col-span-1 row-span-2 aspect-[9/16]' },
-  { src: '/PORTFOLIO IMAGES/page 9/post-32 (1).webp', alt: 'Fashion Video Still', span: 'col-span-1 sm:col-span-1 row-span-2 aspect-[9/16]' },
-  // Social grid tiles
-  { src: '/PORTFOLIO IMAGES/page 9/Air fryer.webp', alt: 'Air Fryer Post', span: 'col-span-1 aspect-square' },
-  { src: '/PORTFOLIO IMAGES/page 9/eid-1.webp', alt: 'Eid Post', span: 'col-span-1 aspect-square' },
-  { src: '/PORTFOLIO IMAGES/page 9/cake post 1.webp', alt: 'Sweet Post', span: 'col-span-1 aspect-square' },
-  { src: '/PORTFOLIO IMAGES/page 9/portable Vacuum cleaner.webp', alt: 'Audience Hook Post', span: 'col-span-1 aspect-square' },
-  { src: '/PORTFOLIO IMAGES/page 9/post 1.2.webp', alt: 'Engagement Growth Post', span: 'col-span-1 aspect-square' },
-  { src: '/PORTFOLIO IMAGES/page 9/d9a855230993327.webp', alt: 'Website Post', span: 'col-span-1 aspect-square' },
-];
+
 
 export default function SocialGrid() {
   const sectionRef = useRef<HTMLDivElement>(null);
