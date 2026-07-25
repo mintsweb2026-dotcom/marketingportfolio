@@ -43,14 +43,16 @@ function App() {
     });
 
     // Synchronize Lenis with GSAP's ticker for perfectly smooth scroll-linked animations
-    gsap.ticker.add((time) => {
+    const rafCallback = (time: number) => {
       lenis.raf(time * 1000);
-    });
+    };
+    
+    gsap.ticker.add(rafCallback);
 
     gsap.ticker.lagSmoothing(0);
 
     return () => {
-      gsap.ticker.remove((time) => lenis.raf(time * 1000));
+      gsap.ticker.remove(rafCallback);
       lenis.destroy();
     };
   }, []);
@@ -72,7 +74,7 @@ function App() {
         {/* Page 4: THE LINEUP / CONTENT DROP */}
         <ContentDrop />
         
-        <Suspense fallback={<div className="min-h-screen bg-paper" />}>
+        <Suspense fallback={<div className="min-h-screen bg-paper flex items-center justify-center font-mono text-sm uppercase tracking-widest text-ink/50">Loading Sections...</div>}>
           {/* Page 5: EVERY FRAME, INTENTIONAL */}
           <EditorialSpread />
           {/* Page 6: CLEAN CUTS */}
@@ -111,3 +113,4 @@ function App() {
 }
 
 export default App;
+

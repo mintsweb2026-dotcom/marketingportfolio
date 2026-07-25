@@ -34,8 +34,16 @@ export default function FloatingNav() {
   return (
     <div 
       ref={navRef}
-      className="fixed bottom-6 right-6 z-50 transition-all duration-500 transform translate-y-12 opacity-0 pointer-events-none"
+      className="fixed bottom-6 right-6 z-50 transition-all duration-500 transform translate-y-12 opacity-0 pointer-events-none flex items-center gap-4"
     >
+      <a 
+        href="/portfolio.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-4 h-12 rounded-full bg-ink text-paper flex items-center justify-center hover:scale-105 transition-transform shadow-lg group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-signal-red focus-visible:ring-offset-2 focus-visible:ring-offset-paper"
+      >
+        <span className="font-mono text-[10px] font-bold uppercase tracking-widest">View PDF</span>
+      </a>
       <button 
         onClick={scrollToTop}
         className="w-12 h-12 rounded-full bg-ink text-paper flex flex-col items-center justify-center hover:scale-110 transition-transform shadow-lg group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-signal-red focus-visible:ring-offset-2 focus-visible:ring-offset-paper"

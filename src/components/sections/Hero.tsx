@@ -49,6 +49,8 @@ export default function Hero() {
         src="/PORTFOLIO IMAGES/Cover.webp"
         alt="Mints Global Creative Agency - Premium visual storytelling and digital marketing cover image"
         className="absolute inset-0 w-full h-full object-cover"
+        fetchpriority="high"
+        decoding="sync"
       />
       <div className="absolute inset-0 bg-black/40" />
 
