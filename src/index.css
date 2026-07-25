@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -8,10 +8,10 @@
   --color-stone: var(--stone);
   --color-mute: var(--mute);
 
-  --font-display: "Outfit", sans-serif;
-  --font-body: "Outfit", sans-serif;
-  --font-mono: "Outfit", sans-serif;
-  --font-accent: "Great Vibes", cursive;
+  --font-display: "Roboto", sans-serif;
+  --font-body: "Roboto", sans-serif;
+  --font-mono: "Roboto", sans-serif;
+  --font-accent: "Roboto", sans-serif;
 }
 
 /* ─── Typography Fonts ────────────────────────────────────────────── */
@@ -35,7 +35,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;

@@ -56,7 +56,7 @@ function App() {
   }, []);
 
   return (
-    <div className="relative bg-paper text-ink min-h-screen selection:bg-signal-red selection:text-paper">
+    <div className="relative bg-paper text-ink min-h-screen overflow-x-hidden selection:bg-signal-red selection:text-paper">
       <Preloader />
       <CustomCursor />
       <FloatingNav />

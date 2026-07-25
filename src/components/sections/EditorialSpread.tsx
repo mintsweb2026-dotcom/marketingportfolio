@@ -68,11 +68,11 @@ export default function EditorialSpread() {
         </div>
 
         {/* Row of 5 lifestyle shots */}
-        <div className="ed-reveal flex gap-3 justify-between">
+        <div className="ed-reveal grid grid-cols-2 sm:grid-cols-3 md:flex md:justify-between gap-3">
           {row5Images.map((img) => (
             <div
               key={img.src}
-              className="flex-1 overflow-hidden group cursor-pointer h-20 sm:h-28 md:h-[220px]"
+              className="w-full md:flex-1 overflow-hidden group cursor-pointer h-32 sm:h-40 md:h-[220px]"
             >
               <img loading="lazy"
                 decoding="async"

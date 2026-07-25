@@ -57,11 +57,11 @@ export default function ProductGrid() {
         </p>
 
         {/* Row 1 — 5 upright bottles */}
-        <div className="prod-reveal flex justify-between items-end gap-3 mb-6">
+        <div className="prod-reveal grid grid-cols-2 sm:grid-cols-3 md:flex md:justify-between items-end gap-3 mb-6">
           {uprightBottles.map((img) => (
             <div
               key={img.src}
-              className="flex-1 overflow-hidden group cursor-pointer h-24 sm:h-32 md:h-[300px]"
+              className="w-full md:flex-1 overflow-hidden group cursor-pointer h-32 sm:h-40 md:h-[300px]"
             >
               <img loading="lazy"
                 decoding="async"
@@ -74,11 +74,11 @@ export default function ProductGrid() {
         </div>
 
         {/* Row 2 — 4 sideways bottles */}
-        <div className="prod-reveal flex justify-around items-center gap-3">
+        <div className="prod-reveal grid grid-cols-2 md:flex md:justify-around items-center gap-3">
           {sidewaysBottles.map((img) => (
             <div
               key={img.src}
-              className="flex-1 overflow-hidden group cursor-pointer h-20 sm:h-24 md:h-[200px]"
+              className="w-full md:flex-1 overflow-hidden group cursor-pointer h-24 sm:h-32 md:h-[200px]"
             >
               <img loading="lazy"
                 decoding="async"
